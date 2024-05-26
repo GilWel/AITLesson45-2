@@ -4,12 +4,12 @@ import java.util.Objects;
 
 class PensionFund {
     private String name;
-    private  int Baujahr;
+    private int Baujahr;
 
     static double PERCENTAGE_FOR_PENSION = 0.7;
 
-    public  double pensionValue(Human human) {
-        double result  = human.findAverageValue() * PERCENTAGE_FOR_PENSION;
+    public double pensionValue(Human human) {
+        double result = human.findAverageValue() * PERCENTAGE_FOR_PENSION;
         return result;
     }
 

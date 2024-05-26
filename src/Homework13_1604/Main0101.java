@@ -30,9 +30,14 @@ PensionFund pensionFund=new PensionFund();
         double amountPension2 = pensionFund.pensionValue(pensioner);
         System.out.println("Пенсия у " + worker.getName() + " равна " + amountPension1 + "Евро");
         System.out.println("Пенсия у " + pensioner.getName() + " равна " + amountPension2 + "Евро");
+
+        AvailableForWork pensioner1 = new Pensioner();
+        AvailableForWork  worker1 = new Worker();
+        pensioner.goToWork();
+        worker.goToWork();
     }
 
-    
+
 }
 
 
